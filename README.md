@@ -17,28 +17,28 @@ pip install -r requirements.txt
 # Aby uruchomić wszystkie skrypty jednocześnie 
 - python src/run_all.py
 
-# Skrypt do obliczania i zapisywania wstępnych statystyk cech do pliku CSV
+## Skrypt do obliczania i zapisywania wstępnych statystyk cech do pliku CSV
 ● Dla cech numerycznych: średnia, mediana, wartość minimalna, maksymalna,
 odchylenie standardowe, 5-ty i 95-ty percentyl, liczba brakujących wartości w
 kolumnie.
 ● Dla cech kategorialnych: liczba unikalnych klas, liczba brakujących wartości w
 kolumnie, proporcja klas.
 
- python src/compute_stats.py
+- python src/compute_stats.py
 
-# Wykorzystanie violinplotów & boxplotów
+## Wykorzystanie violinplotów & boxplotów
 - python src/generate_plots.py
 
-# Error bar   
+## Error bar   
 - python src/generate_error_bars.p
 
-# Heatmap
+## Heatmap
 - python src/generate_heatmanp.py
 
-# Regresja liniowa  
+## Regresja liniowa  
 - python src/generate_reg.py
 
-# Wydrukowanie % dla płci 
+## Wydrukowanie % dla płci 
 - python src/analyze_dropout_gender.py
 
 
@@ -83,11 +83,11 @@ Histogram to wykres pokazujący rozkład wartości dla jednej zmiennej numeryczn
 ● o identyfikacji wartości odstających
 ● do oceny gęstości danych
 
-## 🔹 Histogram :
+## Histogram :
 - Analizuje tylko jedną cechę numeryczną
 * Traktuje cały zbiór jako jedną grupę
 
-## 🔹 Histogram warunkowy (hue):
+## Histogram warunkowy (hue):
 🔗 Histogram z hue
 
 Histogramy pokazujące rozkład cechy oddzielnie dla każdej wartości innej cechy (np. osobno dla mężczyzn i kobiet). To histogramy z podziałem na kategorie.
