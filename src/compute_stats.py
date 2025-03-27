@@ -84,4 +84,4 @@ if __name__ == "__main__":
         args.numeric_out,
         args.categorical_summary_out,
         args.categorical_distribution_out
-    )
+    )   

@@ -1,16 +1,50 @@
 # MSID Data Statistics
-⚠️ Czego unikać
-Nie uruchamiaj go bez aktywowania środowiska (conda activate msid) — inaczej trafi do globalnego Pythona.
-
-Nie rób pip install -r requirements.txt jeśli już masz wszystkie pakiety zainstalowane (dublujesz pracę).
-
-
 
 # Dane pochodzą z Predict Students' Dropout and Academic Success
 Marital status,Application mode,Application order,Course,Daytime/evening attendance,Previous qualification,Nacionality,Mother's qualification,Father's qualification,Mother's occupation,Father's occupation,Displaced,Educational special needs,Debtor,Tuition fees up to date,Gender,Scholarship holder,Age at enrollment,International,Curricular units 1st sem (credited),Curricular units 1st sem (enrolled),Curricular units 1st sem (evaluations),Curricular units 1st sem (approved),Curricular units 1st sem (grade),Curricular units 1st sem (without evaluations),Curricular units 2nd sem (credited),Curricular units 2nd sem (enrolled),Curricular units 2nd sem (evaluations),Curricular units 2nd sem (approved),Curricular units 2nd sem (grade),Curricular units 2nd sem (without evaluations),Unemployment rate,Inflation rate,GDP,Target
 
 ## Link do danych 
 https://www.kaggle.com/datasets/naveenkumar20bps1137/predict-students-dropout-and-academic-success
+
+
+## Setup
+
+```bash
+conda activate msid
+pip install -r requirements.txt
+```
+
+# Aby uruchomić wszystkie skrypty jednocześnie 
+- python src/run_all.py
+
+# Skrypt do obliczania i zapisywania wstępnych statystyk cech do pliku CSV
+● Dla cech numerycznych: średnia, mediana, wartość minimalna, maksymalna,
+odchylenie standardowe, 5-ty i 95-ty percentyl, liczba brakujących wartości w
+kolumnie.
+● Dla cech kategorialnych: liczba unikalnych klas, liczba brakujących wartości w
+kolumnie, proporcja klas.
+
+ python src/compute_stats.py
+
+# Wykorzystanie violinplotów & boxplotów
+- python src/generate_plots.py
+
+# Error bar   
+- python src/generate_error_bars.p
+
+# Heatmap
+- python src/generate_heatmanp.py
+
+# Regresja liniowa  
+- python src/generate_reg.py
+
+# Wydrukowanie % dla płci 
+- python src/analyze_dropout_gender.py
+
+
+
+
+
 
 # Boxplot (czyli wykres pudełkowy) pokazuje rozkład wartości numerycznych:
 ● rodkowa linia: mediana
@@ -69,64 +103,4 @@ To technika statystyczna służąca do modelowania zależności między dwiema z
 ● jedna zmienna to cecha niezależna (X)
 ● druga to cecha zależna (Y)
 ● Regresja próbuje dopasować prostą linię, która najlepiej opisuje zależność między nimi.
-
-
-
-
-
-
-
-## Setup
-
-```bash
-conda activate msid
-pip install -r requirements.txt
-```
-
-python -m src.compute_stats \
-  --input path/to/data.csv \
-  --numeric_out numeric_stats.csv \
-  --categorical_out categorical_stats.csv
-
-
-Still in your project folder (~/Desktop/msid), create a data directory and pull the dataset:
-
-bash
-Kopiuj
-mkdir -p data
-kaggle datasets download \
-  -d naveenkumar20bps1137/predict-students-dropout-and-academic-success \
-  --path data \
-  --unzip
-
-
-  ![alt text](image.png)
-
-
-
-
-# Skrypt do obliczania i zapisywania wstępnych statystyk cech do pliku CSV
-● Dla cech numerycznych: średnia, mediana, wartość minimalna, maksymalna,
-odchylenie standardowe, 5-ty i 95-ty percentyl, liczba brakujących wartości w
-kolumnie.
-● Dla cech kategorialnych: liczba unikalnych klas, liczba brakujących wartości w
-kolumnie, proporcja klas.
-
- python src/compute_stats.py
-
-# Wykorzystanie violinplotów
-
-python -m src.generate_violinplots --input data/dataset.csv --out_dir violin_plots
-
-# Wykorzystanie boxplotów
-
-python -m src.generate_errorbars --input data/numeric_stats.csv --out error_bars/mean_error.png
-
-
-# Analiza i wizualizacja cech numerycznych za pomocą error bars:
-
-python -m src.generate_errorbars --input data/dataset.csv --out_dir error_bars --chunk_size 8
-
-![alt text](image.png)
-
 
