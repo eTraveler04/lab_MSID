@@ -1,0 +1,110 @@
+{
+    "categorical_columns": [
+        "Marital status",
+        "Application mode",
+        "Course",
+        "Daytime/evening attendance",
+        "Previous qualification",
+        "Nacionality",
+        "Gender",
+        "Scholarship holder",
+        "Target",
+        "Displaced",
+        "Debtor",
+        "Tuition fees up to date",
+        "International",
+        "Educational special needs",
+        "Mother's qualification",
+        "Father's qualification",
+        "Mother's occupation",
+        "Father's occupation"
+    ],
+    "numeric_columns": [
+        "Application order",
+        "Age at enrollment",
+        "Curricular units 1st sem (credited)",
+        "Curricular units 1st sem (enrolled)",
+        "Curricular units 1st sem (evaluations)",
+        "Curricular units 1st sem (approved)",
+        "Curricular units 1st sem (grade)",
+        "Curricular units 1st sem (without evaluations)",
+        "Curricular units 2nd sem (credited)",
+        "Curricular units 2nd sem (enrolled)",
+        "Curricular units 2nd sem (evaluations)",
+        "Curricular units 2nd sem (approved)",
+        "Curricular units 2nd sem (grade)",
+        "Curricular units 2nd sem (without evaluations)",
+        "Unemployment rate",
+        "Inflation rate",
+        "GDP"
+    ],
+    "groups": {
+        "Demographics": [
+            "Age at enrollment",
+            "Gender",
+            "International",
+            "Marital status",
+            "Nacionality"
+        ],
+        "Application Details": [
+            "Application mode",
+            "Application order",
+            "Course",
+            "Daytime/evening attendance",
+            "Previous qualification"
+        ],
+        "Family Background": [
+            "Mother's qualification",
+            "Father's qualification",
+            "Mother's occupation",
+            "Father's occupation"
+        ],
+        "Social Factors": [
+            "Displaced",
+            "Educational special needs"
+        ],
+        "Academic Performance": [
+            "Curricular units 1st sem (grade)",
+            "Curricular units 2nd sem (grade)"
+        ],
+        "First Semester Units": [
+            "Curricular units 1st sem (credited)",
+            "Curricular units 1st sem (enrolled)",
+            "Curricular units 1st sem (evaluations)",
+            "Curricular units 1st sem (approved)",
+            "Curricular units 1st sem (without evaluations)"
+        ],
+        "Second Semester Units": [
+            "Curricular units 2nd sem (credited)",
+            "Curricular units 2nd sem (enrolled)",
+            "Curricular units 2nd sem (evaluations)",
+            "Curricular units 2nd sem (approved)",
+            "Curricular units 2nd sem (without evaluations)"
+        ],
+        "Economic Indicators": [
+            "Unemployment rate",
+            "Inflation rate",
+            "GDP"
+        ],
+        "Student Financial Status": [
+            "Debtor",
+            "Scholarship holder",
+            "Tuition fees up to date"
+        ],
+        "Outcome": [
+            "Target"
+        ],
+        "parent_occupations": [
+            "Mother's occupation",
+            "Father's occupation"
+        ],
+        "parent_qualifications": [
+            "Mother's qualification",
+            "Father's qualification"
+        ]
+    },
+    "hue_columns": [
+        "Gender",
+        "Target"
+    ]
+}

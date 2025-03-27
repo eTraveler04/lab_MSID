@@ -1,0 +1,138 @@
+Correlation Ranking (highest to lowest):
+
+Curricular units 1st sem (credited) ↔ Curricular units 2nd sem (credited): 0.94
+Curricular units 1st sem (enrolled) ↔ Curricular units 2nd sem (enrolled): 0.94
+Curricular units 1st sem (approved) ↔ Curricular units 2nd sem (approved): 0.90
+Curricular units 1st sem (grade) ↔ Curricular units 2nd sem (grade): 0.84
+Curricular units 1st sem (evaluations) ↔ Curricular units 2nd sem (evaluations): 0.78
+Curricular units 1st sem (credited) ↔ Curricular units 1st sem (enrolled): 0.77
+Curricular units 1st sem (enrolled) ↔ Curricular units 1st sem (approved): 0.77
+Curricular units 2nd sem (approved) ↔ Curricular units 2nd sem (grade): 0.76
+Curricular units 1st sem (enrolled) ↔ Curricular units 2nd sem (credited): 0.75
+Curricular units 1st sem (approved) ↔ Curricular units 2nd sem (enrolled): 0.73
+Curricular units 2nd sem (enrolled) ↔ Curricular units 2nd sem (approved): 0.70
+Curricular units 1st sem (approved) ↔ Curricular units 1st sem (grade): 0.70
+Curricular units 1st sem (approved) ↔ Curricular units 2nd sem (grade): 0.69
+Curricular units 1st sem (enrolled) ↔ Curricular units 1st sem (evaluations): 0.68
+Curricular units 2nd sem (credited) ↔ Curricular units 2nd sem (enrolled): 0.68
+Curricular units 1st sem (enrolled) ↔ Curricular units 2nd sem (approved): 0.67
+Curricular units 1st sem (grade) ↔ Curricular units 2nd sem (approved): 0.67
+Curricular units 1st sem (credited) ↔ Curricular units 2nd sem (enrolled): 0.64
+Curricular units 1st sem (credited) ↔ Curricular units 1st sem (approved): 0.63
+Curricular units 1st sem (evaluations) ↔ Curricular units 2nd sem (enrolled): 0.61
+Curricular units 1st sem (approved) ↔ Curricular units 2nd sem (credited): 0.61
+Curricular units 2nd sem (enrolled) ↔ Curricular units 2nd sem (evaluations): 0.60
+Curricular units 1st sem (enrolled) ↔ Curricular units 2nd sem (evaluations): 0.60
+Curricular units 1st sem (without evaluations) ↔ Curricular units 2nd sem (without evaluations): 0.58
+Curricular units 1st sem (credited) ↔ Curricular units 1st sem (evaluations): 0.54
+Curricular units 1st sem (approved) ↔ Curricular units 2nd sem (evaluations): 0.54
+Curricular units 1st sem (evaluations) ↔ Curricular units 1st sem (approved): 0.52
+Curricular units 1st sem (evaluations) ↔ Curricular units 2nd sem (credited): 0.52
+Curricular units 2nd sem (credited) ↔ Curricular units 2nd sem (approved): 0.52
+Curricular units 1st sem (credited) ↔ Curricular units 2nd sem (approved): 0.49
+Curricular units 1st sem (grade) ↔ Curricular units 2nd sem (evaluations): 0.49
+Curricular units 2nd sem (evaluations) ↔ Curricular units 2nd sem (approved): 0.46
+Curricular units 2nd sem (evaluations) ↔ Curricular units 2nd sem (grade): 0.45
+Curricular units 1st sem (evaluations) ↔ Curricular units 2nd sem (approved): 0.44
+Curricular units 2nd sem (credited) ↔ Curricular units 2nd sem (evaluations): 0.43
+Curricular units 1st sem (credited) ↔ Curricular units 2nd sem (evaluations): 0.43
+Curricular units 1st sem (evaluations) ↔ Curricular units 1st sem (grade): 0.42
+Curricular units 1st sem (grade) ↔ Curricular units 2nd sem (enrolled): 0.41
+Curricular units 2nd sem (enrolled) ↔ Curricular units 2nd sem (grade): 0.40
+Curricular units 1st sem (enrolled) ↔ Curricular units 1st sem (grade): 0.38
+Curricular units 1st sem (enrolled) ↔ Curricular units 2nd sem (grade): 0.36
+Curricular units 1st sem (evaluations) ↔ Curricular units 2nd sem (grade): 0.36
+Curricular units 1st sem (evaluations) ↔ Curricular units 1st sem (without evaluations): 0.24
+Age at enrollment ↔ Curricular units 1st sem (credited): 0.23
+Age at enrollment ↔ Curricular units 2nd sem (credited): 0.21
+Curricular units 2nd sem (evaluations) ↔ Curricular units 2nd sem (without evaluations): 0.14
+Curricular units 1st sem (without evaluations) ↔ Curricular units 2nd sem (evaluations): 0.14
+Age at enrollment ↔ Curricular units 1st sem (enrolled): 0.14
+Age at enrollment ↔ Curricular units 1st sem (evaluations): 0.14
+Curricular units 1st sem (evaluations) ↔ Curricular units 2nd sem (without evaluations): 0.13
+Curricular units 1st sem (credited) ↔ Curricular units 2nd sem (grade): 0.13
+Curricular units 2nd sem (credited) ↔ Curricular units 2nd sem (grade): 0.13
+Curricular units 1st sem (enrolled) ↔ Curricular units 1st sem (without evaluations): 0.13
+Curricular units 1st sem (credited) ↔ Curricular units 1st sem (grade): 0.12
+Curricular units 1st sem (without evaluations) ↔ Curricular units 2nd sem (credited): 0.12
+Curricular units 1st sem (credited) ↔ Curricular units 1st sem (without evaluations): 0.12
+Curricular units 1st sem (grade) ↔ Curricular units 2nd sem (credited): 0.11
+Curricular units 1st sem (without evaluations) ↔ Curricular units 2nd sem (enrolled): 0.11
+Age at enrollment ↔ Curricular units 2nd sem (enrolled): 0.09
+Application order ↔ Curricular units 2nd sem (approved): 0.07
+Curricular units 2nd sem (grade) ↔ GDP: 0.07
+Curricular units 2nd sem (credited) ↔ Curricular units 2nd sem (without evaluations): 0.07
+Curricular units 1st sem (enrolled) ↔ Curricular units 2nd sem (without evaluations): 0.07
+Curricular units 2nd sem (enrolled) ↔ Curricular units 2nd sem (without evaluations): 0.07
+Curricular units 2nd sem (enrolled) ↔ Unemployment rate: 0.06
+Age at enrollment ↔ Curricular units 2nd sem (without evaluations): 0.06
+Curricular units 1st sem (evaluations) ↔ Unemployment rate: 0.06
+Application order ↔ Curricular units 1st sem (grade): 0.06
+Age at enrollment ↔ Curricular units 1st sem (without evaluations): 0.06
+Age at enrollment ↔ Curricular units 2nd sem (evaluations): 0.06
+Application order ↔ Curricular units 2nd sem (grade): 0.06
+Curricular units 1st sem (credited) ↔ Curricular units 2nd sem (without evaluations): 0.06
+Curricular units 1st sem (grade) ↔ GDP: 0.05
+Curricular units 1st sem (approved) ↔ Unemployment rate: 0.05
+Curricular units 2nd sem (approved) ↔ Unemployment rate: 0.05
+Curricular units 2nd sem (evaluations) ↔ Unemployment rate: 0.05
+Curricular units 1st sem (enrolled) ↔ Unemployment rate: 0.04
+Curricular units 1st sem (enrolled) ↔ Inflation rate: 0.04
+Application order ↔ Curricular units 1st sem (approved): 0.04
+Application order ↔ GDP: 0.03
+Application order ↔ Curricular units 2nd sem (enrolled): 0.03
+Age at enrollment ↔ Inflation rate: 0.03
+Age at enrollment ↔ Unemployment rate: 0.03
+Curricular units 1st sem (credited) ↔ Inflation rate: 0.02
+Curricular units 2nd sem (approved) ↔ GDP: 0.02
+Curricular units 1st sem (approved) ↔ GDP: 0.02
+Curricular units 2nd sem (enrolled) ↔ Inflation rate: 0.02
+Curricular units 1st sem (grade) ↔ Unemployment rate: 0.01
+Curricular units 2nd sem (credited) ↔ Inflation rate: 0.01
+Curricular units 2nd sem (credited) ↔ Unemployment rate: 0.01
+Curricular units 1st sem (credited) ↔ Unemployment rate: 0.01
+Curricular units 2nd sem (grade) ↔ Unemployment rate: 0.00
+Curricular units 2nd sem (evaluations) ↔ GDP: -0.00
+Curricular units 1st sem (evaluations) ↔ Inflation rate: -0.01
+Curricular units 1st sem (approved) ↔ Inflation rate: -0.01
+Curricular units 2nd sem (enrolled) ↔ GDP: -0.01
+Application order ↔ Inflation rate: -0.01
+Curricular units 2nd sem (evaluations) ↔ Inflation rate: -0.01
+Curricular units 1st sem (without evaluations) ↔ Curricular units 2nd sem (approved): -0.01
+Curricular units 1st sem (approved) ↔ Curricular units 1st sem (without evaluations): -0.01
+Curricular units 2nd sem (without evaluations) ↔ Unemployment rate: -0.01
+Application order ↔ Curricular units 2nd sem (without evaluations): -0.02
+Application order ↔ Curricular units 1st sem (enrolled): -0.02
+Curricular units 2nd sem (credited) ↔ GDP: -0.02
+Curricular units 2nd sem (approved) ↔ Inflation rate: -0.02
+Curricular units 1st sem (enrolled) ↔ GDP: -0.03
+Curricular units 1st sem (credited) ↔ GDP: -0.03
+Unemployment rate ↔ Inflation rate: -0.03
+Application order ↔ Curricular units 1st sem (without evaluations): -0.03
+Curricular units 1st sem (grade) ↔ Inflation rate: -0.03
+Curricular units 2nd sem (without evaluations) ↔ Inflation rate: -0.03
+Curricular units 2nd sem (grade) ↔ Inflation rate: -0.04
+Curricular units 1st sem (without evaluations) ↔ Unemployment rate: -0.05
+Curricular units 1st sem (without evaluations) ↔ Inflation rate: -0.05
+Age at enrollment ↔ Curricular units 1st sem (approved): -0.05
+Curricular units 1st sem (approved) ↔ Curricular units 2nd sem (without evaluations): -0.05
+Application order ↔ Curricular units 2nd sem (evaluations): -0.06
+Curricular units 1st sem (without evaluations) ↔ Curricular units 2nd sem (grade): -0.06
+Curricular units 2nd sem (approved) ↔ Curricular units 2nd sem (without evaluations): -0.06
+Age at enrollment ↔ GDP: -0.06
+Curricular units 1st sem (grade) ↔ Curricular units 2nd sem (without evaluations): -0.07
+Curricular units 1st sem (grade) ↔ Curricular units 1st sem (without evaluations): -0.07
+Curricular units 2nd sem (grade) ↔ Curricular units 2nd sem (without evaluations): -0.08
+Curricular units 2nd sem (without evaluations) ↔ GDP: -0.08
+Application order ↔ Curricular units 1st sem (evaluations): -0.09
+Application order ↔ Unemployment rate: -0.10
+Curricular units 1st sem (evaluations) ↔ GDP: -0.10
+Age at enrollment ↔ Curricular units 2nd sem (approved): -0.11
+Inflation rate ↔ GDP: -0.11
+Application order ↔ Curricular units 2nd sem (credited): -0.13
+Application order ↔ Curricular units 1st sem (credited): -0.13
+Curricular units 1st sem (without evaluations) ↔ GDP: -0.14
+Age at enrollment ↔ Curricular units 1st sem (grade): -0.16
+Age at enrollment ↔ Curricular units 2nd sem (grade): -0.17
+Application order ↔ Age at enrollment: -0.27
+Unemployment rate ↔ GDP: -0.34
