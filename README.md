@@ -45,7 +45,6 @@ kolumnie, proporcja klas.
 
 
 
-
 # Boxplot (czyli wykres pudełkowy) pokazuje rozkład wartości numerycznych:
 ● rodkowa linia: mediana
 ● pudełko: rozpiętość między kwartylem dolnym (Q1) a górnym (Q3)
@@ -70,9 +69,6 @@ Wizualizacja wartości średnich cech numerycznych z przedziałami ufności lub 
 ● do analizy zmienności cech
 ● do oceny pewności danych (czy grupy istotnie się różnią)
 
-🧠 Przykład w Twoim projekcie:
-Widzisz, że studenci z grupy „Dropout” mają niższe średnie oceny i większe rozrzuty (większe error bary), co może sugerować niestabilność wyników.
-
 # Historiogram 
 🔗 Seaborn tutorial – distributions
 
@@ -96,6 +92,11 @@ Histogramy pokazujące rozkład cechy oddzielnie dla każdej wartości innej cec
 ● porównanie rozkładów w różnych grupach (np. Gender, Target)
 ● widzisz czy np. kobiety są młodsze, mają wyższe oceny itp.
 ● wykrywanie różnic ukrytych w ogólnej populacji
+
+# Heatmap
+To wizualna reprezentacja macierzy korelacji między zmiennymi liczbowymi. Pokazuje, jak bardzo jedna zmienna jest powiązana z drugą — zarówno co do kierunku (dodatnia/ujemna), jak i siły związku.
+Heatmapę korelacji zawsze tworzy się tylko na kolumnach numerycznych, ponieważ
+korelacja (np. współczynnik Pearsona) mierzy siłę i kierunek liniowego związku między zmiennymi liczbowymi.
 
 # Regresja linowa
 To technika statystyczna służąca do modelowania zależności między dwiema zmiennymi liczbowymi:
