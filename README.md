@@ -10,7 +10,20 @@ https://www.kaggle.com/datasets/naveenkumar20bps1137/predict-students-dropout-an
 ## Setup
 
 ```bash
-conda activate msid
+# 1. Sklonuj repozytorium
+git clone https://github.com/eTraveler04/lab_MSID.git
+
+# 2. Przejdź do katalogu repozytorium
+cd nazwa-repo
+
+# 3. Upewnij się, że jesteś na gałęzi main
+git checkout main
+
+# 4. Pobierz najnowsze zmiany z gałęzi main
+git pull origin main
+
+# 5. Środowisko
+conda activate ( np. msid )
 pip install -r requirements.txt
 ```
 
