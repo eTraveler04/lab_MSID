@@ -8,7 +8,8 @@ scripts = [
     "src/generate_heatmap.py",
     "src/generate_reg.py",
     "src/dropout_parents.py",
-    "src/generate_hist.py"
+    "src/generate_hist.py",
+    "python src/regression_dropout.py"
 ]
 
 print("[✓] Uruchamianie wszystkich etapów analizy danych...\n")
